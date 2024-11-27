@@ -52,7 +52,7 @@ D=zeros(N,1);
     end
     D(1)=D(1)-A*Tleft;
     D(N-1)=D(N-1)-C*Tright;
-    fghdfhg
+    
     T_final=M\D;
     
     %cond aux limites de T
