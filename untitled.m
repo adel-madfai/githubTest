@@ -67,3 +67,4 @@ end
 T;
 
 plot(x,T), xlabel('distance'), ylabel('Temperature')
+quick
